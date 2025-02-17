@@ -60,15 +60,11 @@
         form.onsubmit = (e) => {
             e.preventDefault(); // 폼 전송 취소
             alert('폼 취소!');
-            
+
             resultSpans[0].innerText = e.target.userid.value;
             resultSpans[1].innerText = e.target.pass.value;
         }
-
     });
-
-
-
     </script>
 </head>
 <body>
